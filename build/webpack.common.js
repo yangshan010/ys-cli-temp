@@ -40,7 +40,7 @@ module.exports = {
                 "@babel/preset-env",
                 {
                   debug: true,
-                  useBuiltIns: "entry",
+                  useBuiltIns: "usage",
                   targets: { browsers: ["> 1%"] }
                 }
               ]
